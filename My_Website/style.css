@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+;
+}
+
+
+body {
+    margin:0;
+    text-align: center;
+    background-color: transparent;
+    color: lightblue;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 95%
+    margin:0 auto;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.title span {
+    font-weight: 300;
+    display: block;
+    font-size: .85em
+}
+
+.button { 
+    display: inline-block;
+   font-size: 1.5em;
+   text-decoration: none;
+   text-transform: uppercase;
+   border-width: 2px;
+   border-style: solid;
+   padding: .5em 1.75em;
+}
+    
+    .button-accent {
+        color: pink;
+        border-color: red;
+    }
+    
+    .button-accent: hover, 
+    .button-accent: focus {
+        background-color: white;
+        color: green;
+        
+    }
+    
+/*header
+=====*/
+
+header {
+   position: absolute;
+   left: 0;
+   right: 0;
+    margin-top: 1em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a {
+    font-weight: 900;
+    text-decoration:nothing;
+    font-size: .8em;
+    padding: .5em;
+    background-color: transparent;
+    color: white;
+    
+}
+
+nav a: hover, 
+nav a: focus {
+    color: blue;
+}
+
+.home-hero {
+    background-image: 
+    url(Images/sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+}
+.home-about-textbox {
+    background-color: white;
+    width: 100vw;
+    padding-bottom: 
+    margin-left: -2.5vw;
+    outline: 2px solid black;
+    outline-offset: -2.5em;
+    color: blue;
+
+}
